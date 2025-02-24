@@ -562,3 +562,123 @@ input, textarea, select, button {
     opacity: 1;
     height: 1.5px;
 }
+
+/* Service */
+.service {
+    margin-top: 190px;
+    border-color: #FFF6ED;
+    padding: 68px 0 100px;
+}
+
+.setvice__top {
+    text-align: center;
+}
+
+.service__desc {
+    color: #5E6085;
+    font-family: Sora;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.service__body {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    margin-top: 70px;
+    column-gap: 65px;
+}
+
+.service-item {
+    width: 294px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 188, 122, 0.26);
+    background: #FFF;
+    padding: 30px;
+}
+
+.service-item + .service-item {
+    margin-top: 24px;
+}
+
+.service-item__heading {
+    position: relative;
+    color: #000958;
+    font-family: Sora;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1;
+    padding-left: 12px;
+}
+
+.service-item__heading::before {
+    content: "";
+    width: 2px;
+    /* height: 22px; */
+    display: inline-block;
+    border-radius: 1px;
+    background: linear-gradient(#FF5B2E, #FFA187) ;
+    position: absolute;
+    inset: 0 auto 0 0;
+}
+
+.service-item__desc {
+    margin-top: 18px;
+    color: #656689;
+    font-size: 1.4rem;
+    line-height: 1.71;
+}
+
+.service-item__more {
+    color: #34396A;
+    font-family: Sora;
+    font-size: 1.2rem;
+    line-height: 1;
+    margin-top: 24px;
+    display: inline-flex;
+    align-items: center;
+    
+}
+
+.service-item__more::after {
+    content: url(../icon/Arrow-up-right.svg);
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+.service__media {
+    margin-top: 18px;
+    position: relative;
+}
+
+.service__media::after {
+    content: "";
+    position: absolute;
+    height: 350px;
+    left: 16px;
+    right: 16px;
+    bottom: 0;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #9DF1FB 0%, #73D0DB 108.14%);
+}
+
+.service__img {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    display: block;
+}
+
+.service__cta-wrap {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.service__cta {
+    min-width: 214px;
+    border-radius: 31px;
+    border: 1px solid #FF5B2E;
+    color: #FF5B2E;
+}
