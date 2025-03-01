@@ -1272,7 +1272,7 @@ input, textarea, select, button {
 
 .footer__row {
     display: grid;
-    grid-template-columns: auto, auto;
+    grid-template-columns: auto auto;
     gap: 58px 137px;
     margin-left: 129px;
 }
